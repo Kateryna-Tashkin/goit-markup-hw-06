@@ -361,6 +361,45 @@
                 <svg class="modal-button-svg" width="11" height="11">
                     <use href="./image/sprite.svg#icon-vector"></use>
                 </svg></button>
+        
+        
+            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="modal-form">
+                <label class="modal-form-label">Имя
+                    <span class="modal-icon-wraper">
+                       <input type="text" name="user-name" class="modal-form-input"  minlength="2" required>
+                       <svg class="modal-form-icon">
+                            <use href="./image/sprite.svg#icon-man"></use>
+                       </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label">Телефон
+                    <span class="modal-icon-wraper">
+                        <input type="tel" name="user-phone" class="modal-form-input" required>
+                        <svg class="modal-form-icon">
+                             <use href="./image/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label">Почта
+                    <span class="modal-icon-wraper">
+                        <input type="mail" name="user-mail" class="modal-form-input"  required>
+                        <svg class="modal-form-icon">
+                             <use href="./image/sprite.svg#icon-mail-box"></use>
+                        </svg>
+                </label>
+                <label class="modal-form-label">Комментарий
+                    <textarea name="user-message" class="modal-for-comment" placeholder="Введите текст"></textarea>
+                    </label>
+                    
+                    <input class="modal-form-policy visually-hidden" type="checkbox" name="" value="policy-ok" id="agreement"></input>
+                    
+                    <label class="contact-form-policy-label" for="agreement">
+                        Соглашаюсь с рассылкой и принимаю<a class="agreement-condition" href="">Условия договора</a>
+                    </label>
+                <button type="submit" class="modal-form-button">Отправить</button>
+            </form>
+        
         </div>
     </div>
     <script src="./js/modal.js"></script>
