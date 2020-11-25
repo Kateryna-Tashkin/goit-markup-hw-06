@@ -539,7 +539,6 @@ input {
   line-height: 1.71;
 
   margin: 0px;
-  padding: 0px;
 }
 .address-auth {
   color: var(--contacts-text-footer);
@@ -560,8 +559,9 @@ input {
   text-transform: uppercase;
   margin: 0px;
 }
+
 .box-social-link {
-  margin-left: 156px;
+  margin-left: 50px;
   padding-top: 10px;
 }
 .list-social-footer {
@@ -634,6 +634,7 @@ input {
 }
 .btn-for-mailing {
   display: flex;
+  position: relative;
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
@@ -659,18 +660,24 @@ input {
   background-color: var(--bg-footer);
   padding-left: 16px;
 }
-
+/*
 .btn-for-mailing::after {
+  position: absolute;
   content: "";
   background-image: url(../image/icon-send.svg);
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 10px;
   display: block;
 }
-
+*/
+.position-svg-icon {
+  padding-left: 10px;
+  padding-top: 13px;
+  align-items: center;
+  justify-content: center;
+}
 .my-send-icon {
   width: 24px;
   height: 24px;
